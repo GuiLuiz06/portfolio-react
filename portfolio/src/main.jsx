@@ -7,12 +7,5 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <nav>
-      <Navbar />
-    </nav>
-    <Routes>
-      <Route path="/" element={<Aside />} />
-    </Routes>
-  </BrowserRouter>
+   <App/>
 );

@@ -1,41 +1,34 @@
-import Contact from "./Contats"
+import ContactButton from "./contatos/ContactButton"
+import Contact from "./contatos/Contats"
 
-function aside() {
+function Aside() {
     return (
         <>
-            <aside class="py-10">
-                <div class="bg-black p-4 w-96 h-[500px] text-white ml-8 rounded-xl">
-                    <div class="flex justify-between items-start">
-                        <div class="flex items-start">
+            <aside className="py-10">
+                <div className="bg-black p-4 w-96 h-[500px] text-white ml-8 rounded-xl">
+                    <div className="flex justify-between items-start">
+                        <div className="flex items-start">
                             <img src="../src/assets/img/Guilherme.jpeg" alt="Foto de guilherme"
-                                class="w-24 border-4 border-indigo-600 rounded-md" />
+                                className="w-24 border-4 border-indigo-600 rounded-md" />
                         </div>
-                        <div class="mr-6">
-                            <p class="flex font-bold text-3xl">Guilherme Luiz</p>
-                            <div class="bg-cyan-500 rounded-xl text-indigo-600">
-                                <p class="ml-2">Desenvolvedor</p>
-                                <div class="">
-                                    <p class="ml-2">Full-Stack</p>
+                        <div className="mr-6">
+                            <p className="flex font-bold text-3xl">Guilherme Luiz</p>
+                            <div className="bg-cyan-500 rounded-xl text-indigo-600 mt-2">
+                                <p className="ml-2">Desenvolvedor</p>
+                                <div className="">
+                                    <p className="ml-2">Full-Stack</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-start font-bold mt-4">
+                    <div className="flex items-start font-bold mt-2 mb-2">
                         <p>Contato</p>
                     </div>
-                    <div class="mt-2">
-                        <Contact/>
-                    </div>
-                    <div class="mt-6">
-                        <Contact/>
-                    </div>
-                    <div class="mt-6">
-                        <Contact/>
-                    </div>
+                   <Contact/>
                 </div>
-            </aside>
+            </aside >
         </>
     )
 }
 
-export default aside
+export default Aside

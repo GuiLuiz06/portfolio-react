@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom"
 
 
-function nav() {
+function Navbar() {
     return (
         <>
-        <nav class="flex justify-center gap-20 bg-black text-white p-4 font-semibold">
+        <nav className="flex justify-center gap-20 bg-black text-white p-4 font-semibold">
             <Link to="/">Início</Link>
             <Link to="/Projetos">Projetos</Link>
-            <Link to="/stacks">Stack's</Link>
-            <Link to="/sobremim">Sobre mim</Link>
-            <Link to="/contato">Contato</Link>
+            <Link to="/MyStacks">Stack's</Link>
+            <Link to="/Sobremim">Sobre mim</Link>
         </nav>
         </>
     )
 }
 
-export default nav
+export default Navbar
