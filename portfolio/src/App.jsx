@@ -5,7 +5,7 @@ import Aside from "./components/Aside";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import "./App.css";
 import Sobremim from "./components/SobreMim";
-import MyStacks from "./components/Stacks/Stacks";
+import CardStack from "./components/Stacks/StacksCard";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Aside />} />
             <Route path="/sobremim" element={<Sobremim />} />
-            <Route path="/MyStacks" element={<MyStacks />} />
+            <Route path="/MyStacks" element={<CardStack />} />
           </Routes>
       </BrowserRouter>
     </>
