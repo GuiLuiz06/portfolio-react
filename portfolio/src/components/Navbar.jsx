@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom"
+
+
 function nav() {
     return (
         <>
         <nav class="flex justify-center gap-20 bg-black text-white p-4 font-semibold">
-            <a href="">Início</a>
-            <a href="">Projetos</a>
-            <a href="">Stack's</a>
-            <a href="">Sobre mim</a>
-            <a href="">Contato</a>
+            <Link to="/">Início</Link>
+            <Link to="/Projetos">Projetos</Link>
+            <Link to="/stacks">Stack's</Link>
+            <Link to="/sobremim">Sobre mim</Link>
+            <Link to="/contato">Contato</Link>
         </nav>
         </>
     )

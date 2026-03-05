@@ -6,7 +6,15 @@ const App = () => (
   <Linkedin/>
 );
 
-const ext = () => {
+const github = () => {
+    <ExternalLink/>
+}
+
+const linkedin = () => {
+    <ExternalLink/>
+}
+
+const email = () => {
     <ExternalLink/>
 }
 
@@ -18,7 +26,10 @@ function contact() {
             <Linkedin class="ml-2 mt-1 border-2 border-black"/>
             </div> 
             <p class="p-1 text-xl font-bold">Linkedin</p>
-            <ExternalLink class="mt-1 ml-48"/>
+            <a href="">
+             <ExternalLink class="mt-1 ml-48"/> 
+            </a>
+            {/* criar para cada meio de contato uma tag a */}
         </div>
         </>
     )
