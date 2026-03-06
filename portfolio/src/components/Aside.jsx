@@ -5,7 +5,7 @@ function Aside() {
     return (
         <>
             <aside className="py-10">
-                <div className="bg-black p-4 w-96 h-[500px] text-white ml-8 rounded-xl">
+                <div className="bg-black p-4 w-96 h-[750px] text-white ml-8 rounded-xl">
                     <div className="flex justify-between items-start">
                         <div className="flex items-start">
                             <img src="../src/assets/img/Guilherme.jpeg" alt="Foto de guilherme"

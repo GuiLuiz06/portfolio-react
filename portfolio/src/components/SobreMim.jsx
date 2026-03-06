@@ -17,7 +17,7 @@ function Sobremim() {
 
                             Desde pequeno tenho interesse por tecnologia e sempre fui curioso para entender como as coisas funcionam. Essa curiosidade me levou ao mundo da programação, onde hoje gosto de aprender novas ferramentas, criar projetos e transformar ideias em soluções digitais.
 
-                            Tenho experiência com tecnologias como <span className="text-orange-600">HTML5</span>, <span className="text-blue-800">CSS3</span>, <span className="text-yellow-400">JavaScript</span>, <span className="text-cyan-300">React</span>, <span className="text-cyan-800">Tailwind Css</span>, <span className="text-purple-800">Bootstrap</span>, <span className="text-red-600">Java</span>, <span className="text-blue-900">Python</span>, Linux, Docker, Git e GitHub, e estou sempre buscando aprimorar minhas habilidades.
+                            Tenho experiência com tecnologias como <span className="text-orange-600">HTML5</span>, <span className="text-blue-800">CSS3</span>, <span className="text-yellow-400">JavaScript</span>, <span className="text-cyan-300">React</span>, <span className="text-cyan-800">Tailwind Css</span>, <span className="text-purple-800">Bootstrap</span>, <span className="text-red-600">Java</span>, <span className="text-blue-900">Python</span>, Linux, Docker, Git e GitHub e estou sempre buscando aprimorar minhas habilidades.
 
                             Sou movido pela curiosidade, dedicação e persistência, sempre buscando crescer como desenvolvedor e construir projetos cada vez melhores.
 
