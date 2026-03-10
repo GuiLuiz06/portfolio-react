@@ -9,7 +9,7 @@ function Sobremim() {
                     <h1 className="font-bold text-3xl mt-10 text-white flex justify-center">Olá, eu sou o Guilherme Luiz 👨‍💻</h1>
                     <p className="font-semibold text-2xl mt-5 text-white flex justify-center">Estudante de ADS</p>
                 </div>
-                <div className="bg-cyan-500 w-[1000px] h-auto p-5 rounded-xl mt-[50px]">
+                <div className="bg-cyan-500 w-[1000px] p-4 rounded-xl mt-[50px]">
                     <div className="flex justify-center font-semibold text-2xl">
                         <p>
 

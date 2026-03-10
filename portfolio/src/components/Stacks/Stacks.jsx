@@ -1,14 +1,12 @@
 import React from "react"
 
-const topPage = () => (
-    "Tecnologias que utilizo"
-)
+
 
 function MyStacks({ nome, Icon, descricao }) {
     return (
         <>
             <div className="flex flex-col justify-center items-center mt-10">
-                <div className="flex flex-col w-96 items-center bg-cyan-500 rounded-xl p-4 min-h-[250px]">
+                <div className="flex flex-col w-96  items-center bg-cyan-200 rounded-xl p-4 min-h-[250px]">
                     <div className="w-12">
                         {Icon && <Icon size={48} />}
                     </div>

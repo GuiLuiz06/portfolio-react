@@ -47,8 +47,8 @@ const github = () => (
 function CardStack() {
     return (
         <>
-        <div className="flex flex-col justify-center items-center font-bold text-4xl mt-6">
-            <h1>Tecnologias que utilizo</h1>
+        <div className="flex flex-col justify-center items-center font-bold text-4xl md: mt-6">
+            <h1 className="text-white">Tecnologias que utilizo</h1>
         </div>
         <div className="flex flex-wrap justify-center gap-3">
             <MyStacks nome={"Html5"} Icon={html5} descricao={"Linguagem usada para estruturar o conteúdo de páginas web, definindo títulos, parágrafos, imagens, links, listas, tabelas e seções de um site, criando a base de qualquer página na web."}/>
