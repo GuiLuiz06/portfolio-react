@@ -7,28 +7,10 @@ function ProjetoCard({ imagem, titulo, descricao, deploy, codigo }) {
           <img src={imagem} alt={titulo} />
         </div>
 
-        <div className="bg-black w-full p-2 rounded-md mt-4">
+        <div className="bg-black w-full p-2 rounded-md">
           <p className="text-white font-bold">{titulo}</p>
+          <p>{descricao}</p>
         </div>
-
-        <div className="bg-black w-full p-2 rounded-md mt-2 mb-2">
-          <p className="text-white font-semibold">{descricao}</p>
-        </div>
-
-        <button
-          className="bg-lime-400 text-black font-bold py-2 px-4 rounded-md"
-          onClick={() => window.open(deploy, "_blank")}
-        >
-          Deploy
-        </button>
-
-        <button
-          className="bg-lime-400 text-black font-bold py-2 px-4 rounded-md mt-2"
-          onClick={() => window.open(codigo, "_blank")}
-        >
-          Código Fonte
-        </button>
-
       </div>
     </div>
   );
