@@ -4,8 +4,8 @@ import Aside from "./components/Home/Aside";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Sobremim from "./components/SobreMim";
+import ProjetosCard from "./components/projetos/ProjetosCard";
 import CardStack from "./components/Stacks/StacksCard";
-import Projetos from "./components/projetos/Projetos";
 import Navbar from "./components/Home/Navbar";
 import HomeMain from "./components/Home/Main";
 
@@ -21,14 +21,20 @@ function App() {
               <>
                 <div className="flex flex-col w-full">
                   <HomeMain/>
-                  <div className="flex flex-col items-center w-full ">
-                    <Projetos />
-                  </div>
                 </div>
               </>
             }
           />
-          <Route path="/sobremim" element={<Sobremim />} />
+          <Route 
+          path="/ProjetosCard" 
+          element={
+            <>
+            <ProjetosCard />
+            </>
+        
+        }
+          
+          />
           <Route path="/MyStacks" element={<CardStack />} />
         </Routes>
       </BrowserRouter>
