@@ -19,21 +19,23 @@ function App() {
             path="/"
             element={
               <>
-                <div className="flex flex-col w-full">
-                  <HomeMain/>
+                <div className="flex flex-col w-full mb-[70%]">
+                  <HomeMain />
                 </div>
               </>
             }
           />
-          <Route 
-          path="/ProjetosCard" 
-          element={
-            <>
-            <ProjetosCard />
-            </>
-        
-        }
-          
+          <Route
+            path="/ProjetosCard"
+            element={
+              <>
+                <div>
+                  <ProjetosCard />
+                </div>
+              </>
+
+            }
+
           />
           <Route path="/MyStacks" element={<CardStack />} />
         </Routes>
