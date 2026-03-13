@@ -23,7 +23,7 @@ function HomeMain() {
   return (
     <>
       <div className="flex flex-row items-center bg-black w-[90%] ml-4 mt-4 rounded-xl">
-        <div className="border-4 border-lime-400 w-24 mt-4 ml-4 rounded-md mb-4">
+        <div className="border-4 border-lime-400 w-24 mt-4 ml-4 rounded-md mb-4 ">
           <img
             src={GuilhermeImg}
             alt="Foto de Guilherme"
@@ -34,7 +34,7 @@ function HomeMain() {
           <p className="whitespace-nowrap ml-4 mb-2 text-xl text-white font-bold">
             Guilherme Luiz
           </p>
-          <div className="bg-lime-400 w-[75%] rounded-md ml-4">
+          <div className="bg-lime-400 w-[90%] rounded-md ml-4">
             <div className="ml-2 font-bold w">
               <p>Desenvolvedor</p>
               <p>Front-end</p>
@@ -42,7 +42,7 @@ function HomeMain() {
           </div>
         </div>
       </div>
-      <div className="ml-4 text-xl mt-4 font-semibold w-[83%] ">
+      <div className="ml-4 text-xl mt-4 font-semibold w-[85%] ">
         <p className="text-white">Transformando ideias em <span className="text-lime-400">Interfaces intuitivas</span> e experiências envolventes</p>
       </div>
       <div className="h-1 bg-lime-400 w-[90%] ml-4 mt-2"></div>
