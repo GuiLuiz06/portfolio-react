@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function HomeIcon(props) {
   return (
@@ -41,8 +41,10 @@ function Navbar() {
         <div className="">
           <ul className="flex justify-around gap-8 px-3 py-4 ">
             <li>
-              <Link to="/" className="bg-white">
-                <HomeIcon />
+              <Link to="/">
+                <a href="" className="">
+                  <HomeIcon />
+                </a>
               </Link>
             </li>
             <li>
