@@ -1,5 +1,5 @@
 import ProjetoCard from "../projetos/ProjetosCard";
-import liquida from "../../assets/img/liquidaGames.png";
+import liquida from "../../assets/img/LiquidaGames.png";
 import NextPage from "../projetos/ButtonNextPage";
 
 function Pencil(props) {
