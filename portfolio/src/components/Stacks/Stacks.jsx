@@ -1,10 +1,10 @@
 import React from "react";
 
-function MyStacks({ nome, Icon, descricao }) {
+function MyStacks({ title, Icon, descricao }) {
   return (
     <>
-      <div className="bg-">
-
+      <div className="flex justify-start items-start">
+        <Icon />
       </div>
     </>
   );
