@@ -1,7 +1,8 @@
 import ProjetoCard from "../projetos/ProjetosCard";
 import liquida from "../../assets/img/LiquidaGames.png";
 import NextPage from "../projetos/ButtonNextPage";
-import guilherme from "../../assets/img/Guilherme.png"
+import GuilhermeImg from "../../assets/img/Guilherme.jpeg"
+
 
 function Pencil(props) {
   return (
@@ -24,7 +25,7 @@ function HomeMain() {
       <div className="flex flex-row items-center bg-black w-[90%] ml-4 mt-4 rounded-xl">
         <div className="border-4 border-lime-400 w-24 mt-4 ml-4 rounded-md mb-4">
           <img
-            src={guilherme}
+            src={GuilhermeImg}
             alt="Foto de Guilherme"
             className=""
           />
