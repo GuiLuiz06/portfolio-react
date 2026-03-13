@@ -8,6 +8,7 @@ import ProjetosCard from "./components/projetos/ProjetosCard";
 import CardStack from "./components/Stacks/StacksCard";
 import Navbar from "./components/Home/Navbar";
 import HomeMain from "./components/Home/Main";
+import HomeProject from "./components/projetos/HomeProjetos";
 
 function App() {
   return (
@@ -19,23 +20,21 @@ function App() {
             path="/"
             element={
               <>
-                <div className="flex flex-col w-full mb-[70%]">
+                <div className="flex flex-col w-full mb-[30%]">
                   <HomeMain />
                 </div>
               </>
             }
           />
           <Route
-            path="/ProjetosCard"
+            path="/Projetos"
             element={
               <>
-                <div>
-                  <ProjetosCard />
+                <div className="flex flex-col w-full mb-[30%]">
+                  <HomeProject />
                 </div>
               </>
-
             }
-
           />
           <Route path="/MyStacks" element={<CardStack />} />
         </Routes>
