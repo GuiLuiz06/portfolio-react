@@ -42,10 +42,8 @@ function HomeMain() {
           </div>
         </div>
       </div>
-      <div className="ml-4 text-xl mt-4 font-semibold">
-        <p className="text-white">Transformando ideias em</p>
-        <p className="text-lime-400">Interfaces intuitivas</p>
-        <p className="text-white">e experiências envolventes</p>
+      <div className="ml-4 text-xl mt-4 font-semibold w-[83%] ">
+        <p className="text-white">Transformando ideias em <span className="text-lime-400">Interfaces intuitivas</span> e experiências envolventes</p>
       </div>
       <div className="h-1 bg-lime-400 w-[90%] ml-4 mt-2"></div>
       <div className="text-sm font-medium text-white mt-6 ml-4 w-[90%]">
