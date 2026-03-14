@@ -9,6 +9,7 @@ import CardStack from "./components/Stacks/StacksCard";
 import Navbar from "./components/Home/Navbar";
 import HomeMain from "./components/Home/Main";
 import HomeProject from "./components/projetos/HomeProjetos";
+import Contact from "./components/contatos/Contats";
 
 function App() {
   return (
@@ -36,7 +37,22 @@ function App() {
               </>
             }
           />
-          <Route path="/MyStacks" element={<CardStack />} />
+          <Route path="/MyStacks" element={
+            <>
+            <div className="flex flex-col w-full mb-[30%]">
+              <CardStack />
+            </div>
+            </>
+
+            } />
+
+            <Route path="/Contatos" element={
+              <>
+              <div className="flex flex-col w-full mb-[30%]">
+                <Contact />
+              </div>
+              </>
+            }/>
         </Routes>
       </BrowserRouter>
     </>

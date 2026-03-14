@@ -2,6 +2,7 @@ import ProjetoCard from "../projetos/ProjetosCard";
 import liquida from "../../assets/img/LiquidaGames.png";
 import NextPage from "../projetos/ButtonNextPage";
 import GuilhermeImg from "../../assets/img/Guilherme.jpeg"
+import ProfileCard from "../Profile/MyCard";
 
 
 function Pencil(props) {
@@ -22,26 +23,12 @@ function Pencil(props) {
 function HomeMain() {
   return (
     <>
-      <div className="flex flex-row items-center bg-black w-[90%] ml-4 mt-4 rounded-xl">
-        <div className="border-4 border-lime-400 w-24 mt-4 ml-4 rounded-md mb-4 ">
-          <img
-            src={GuilhermeImg}
-            alt="Foto de Guilherme"
-            className=""
-          />
-        </div>
-        <div className="w-[90%]">
-          <p className="whitespace-nowrap ml-4 mb-2 text-xl text-white font-bold">
-            Guilherme Luiz
-          </p>
-          <div className="bg-lime-400 w-[90%] rounded-md ml-4">
-            <div className="ml-2 font-bold w">
-              <p>Desenvolvedor</p>
-              <p>Front-end</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ProfileCard
+      imagem={GuilhermeImg}
+      nome={"Guilherme Luiz"}
+      cargo1={"Desenvolvedor"}
+      cargo2={"Front-End"}
+      />
       <div className="ml-4 mt-4 font-bold w-[85%] text-base">
         <p className="text-white">Transformando ideias em <span className="text-lime-400">Interfaces intuitivas</span> e experiências envolventes</p>
       </div>

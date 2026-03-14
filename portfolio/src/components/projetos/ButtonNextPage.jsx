@@ -13,7 +13,7 @@ function NextPage({ NameNextPage, Descricao, Botao, Icon, link }) {
         </div>
         <div className=" mb-[10%]">
           <div className="mt-10">
-            <a href={link} className="bg-white p-4 rounded-md">
+            <a href={link} className="bg-white px-2 py-4 rounded-md font-semibold hover:bg-gray-200 transition duration-300">
               <button>{Botao}</button>
             </a>
           </div>

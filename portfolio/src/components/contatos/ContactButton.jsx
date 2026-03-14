@@ -1,13 +1,23 @@
-function ContactButton({ nome, link, Icon }) {
+function ContactButton({ nome, link, Icon, Icontwo }) {
   return (
-    <a href={link} target="_blank">
-      <div className="flex bg-white text-black w-[330px] h-[60px] rounded-xl items-center justify-between px-2">
-        <div className="flex items-center gap-2">
-          <Icon className="border-2 border-black p-1" size={28} />
+    <>
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex bg-white text-black w-[90%] mx-auto rounded-xl px-2 py-4 items-center justify-between"
+      >
+        <div className="flex items-center gap-3">
+          <div className="bg-lime-400 flex items-center justify-center p-1 rounded-md">
+            <Icon className="p-1 rounded-md" size={48} />
+          </div>
+
           <p className="text-lg font-bold">{nome}</p>
         </div>
-      </div>
-    </a>
+
+        <Icontwo />
+      </a>
+    </>
   );
 }
 
