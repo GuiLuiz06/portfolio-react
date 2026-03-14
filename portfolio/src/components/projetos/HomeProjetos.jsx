@@ -1,5 +1,7 @@
 import ProjetoCard from "./ProjetosCard";
 import NextPage from "./ButtonNextPage";
+import meteora from "../../assets/img/meteora.png"
+import liquida from "../../assets/img/LiquidaGames.png"
 
 function Layers(props) {
   return (
@@ -18,16 +20,16 @@ function HomeProject() {
         </div>
         <div className="">
           <ProjetoCard
-            imagem={""}
-            titulo={"Liquida Games"}
+            imagem={meteora}
+            titulo={"Meteora Modas"}
             descricao={
-              "Feito com intuito de entender como funciona o JavaScript DOM e manipulação de formulários. Tecnologias..."
+              "Este projeto foi desenvolvido como parte dos meus estudos em Bootstrap, com o objetivo de praticar a criação de uma landing page responsiva para uma loja fictícia chamada Silva Modas."
             }
           />
         </div>
         <div className="">
           <ProjetoCard
-            imagem={""}
+            imagem={liquida}
             titulo={"Liquida Games"}
             descricao={
               "Feito com intuito de entender como funciona o JavaScript DOM e manipulação de formulários. Tecnologias..."

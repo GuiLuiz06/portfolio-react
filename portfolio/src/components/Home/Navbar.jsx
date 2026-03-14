@@ -43,7 +43,7 @@ function Navbar() {
       <nav className="fixed bottom-0 left-0 w-full bg-slate-500">
         <div className="">
           <ul className="flex justify-around px- py-4">
-            <li className={`p-2 rounded-xl ${location.pathname === "/" ? "bg-white" : "bg-transparent"
+            <li className={`p-2 rounded-xl rounded-xl transition-all duration-300 ${location.pathname === "/" ? "bg-white" : "bg-transparent"
               }`}>
               <Link to="/">
                 <a href="">
@@ -51,25 +51,25 @@ function Navbar() {
                 </a>
               </Link>
             </li>
-            <li className={`p-2 rounded-xl ${location.pathname === "/Projetos" ? "bg-white" : "bg-transparent"
+            <li className={`p-2 rounded-xl transition-all duration-300 ${location.pathname === "/Projetos" ? "bg-white" : "bg-transparent"
               }`}>
               <Link to="/Projetos">
                 <Pencil />
               </Link>
             </li>
-            <li className={`p-2 rounded-xl ${location.pathname === "/MyStacks" ? "bg-white" : "bg-transparent"
+            <li className={`p-2 rounded-xl transition-all duration-300 ${location.pathname === "/MyStacks" ? "bg-white" : "bg-transparent"
               }`}>
               <Link to="/MyStacks">
                 <Layers />
               </Link>
             </li>
-            <li className={`p-2 rounded-xl ${location.pathname === "/SobreMim" ? "bg-white" : "bg-transparent"
+            <li className={`p-2 rounded-xl transition-all duration-300 ${location.pathname === "/SobreMim" ? "bg-white" : "bg-transparent"
               }`}>
               <Link to="/SobreMim">
                 <User />
               </Link>
             </li>
-            <li className={`p-2 rounded-xl ${location.pathname === "/Contatos" ? "bg-white" : "bg-transparent"
+            <li className={`p-2 rounded-xl transition-all duration-300 ${location.pathname === "/Contatos" ? "bg-white" : "bg-transparent"
               }`}>
               <Link to="/Contatos">
                 <Send />
