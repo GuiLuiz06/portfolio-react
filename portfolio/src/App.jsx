@@ -3,7 +3,7 @@ import viteLogo from "/vite.svg";
 import Aside from "./components/Home/Aside";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import Sobremim from "./components/SobreMim";
+import Sobremim from "./components/Profile/SobreMim";
 import ProjetosCard from "./components/projetos/ProjetosCard";
 import CardStack from "./components/Stacks/StacksCard";
 import Navbar from "./components/Home/Navbar";
@@ -39,20 +39,32 @@ function App() {
           />
           <Route path="/MyStacks" element={
             <>
-            <div className="flex flex-col w-full mb-[30%]">
-              <CardStack />
-            </div>
+              <div className="flex flex-col w-full mb-[30%]">
+                <CardStack />
+              </div>
             </>
 
-            } />
+          } />
 
-            <Route path="/Contatos" element={
-              <>
+          <Route path="/SobreMim" element={
+            <>
+
+              <div className="flex flex-col w-full mb-[30%]">
+                <Sobremim />
+              </div>
+
+            </>
+          }
+
+          />
+
+          <Route path="/Contatos" element={
+            <>
               <div className="flex flex-col w-full mb-[30%]">
                 <Contact />
               </div>
-              </>
-            }/>
+            </>
+          } />
         </Routes>
       </BrowserRouter>
     </>
