@@ -38,7 +38,7 @@ function Contact() {
             <ContactButton
               nome={"Email"}
               Icon={Mail}
-              link={"https://mailto:seuemail@gmail.com"}
+              link={"https://mailto:guilhermeluiz1030@gmail.com"}
               Icontwo={ExternalLink}
             />
           </div>
