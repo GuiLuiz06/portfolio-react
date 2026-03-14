@@ -5,7 +5,7 @@ function ContactButton({ nome, link, Icon, Icontwo }) {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex bg-white text-black w-[90%] mx-auto rounded-xl px-2 py-4 items-center justify-between"
+        className="flex bg-zinc-400 text-black w-[90%] mx-auto rounded-xl px-2 py-2 items-center justify-between"
       >
         <div className="flex items-center gap-3">
           <div className="bg-lime-400 flex items-center justify-center p-1 rounded-md">

@@ -13,11 +13,12 @@ function Contact() {
           cargo1={"Desenvolvedor"}
           cargo2={"Front-End"}
         />
-
-        <div className="px-4">
-          <p className="text-white font-bold text-2xl mb-4 p-2">Contatos</p>
+        <div className="">
 
           <div className="flex flex-col gap-4">
+            <div className="flex w-[90%]">
+              <p className="text-white font-bold text-2xl p-4">Contatos</p>
+            </div>
             <div className="flex justify-start">
               <ContactButton
                 nome={"Linkedin"}
