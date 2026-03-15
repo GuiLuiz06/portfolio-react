@@ -1,7 +1,7 @@
 import { useState } from "react";
 import viteLogo from "/vite.svg";
 import Aside from "./components/Home/Aside";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Sobremim from "./components/Profile/SobreMim";
 import ProjetosCard from "./components/projetos/ProjetosCard";
@@ -10,6 +10,8 @@ import Navbar from "./components/Home/Navbar";
 import HomeMain from "./components/Home/Main";
 import HomeProject from "./components/projetos/HomeProjetos";
 import Contact from "./components/contatos/Contats";
+import ProjectLiquida from "./components/projetos/Liquida";
+import ProjectSilva from "./components/projetos/SilvaModas";
 
 function App() {
   return (
@@ -37,34 +39,58 @@ function App() {
               </>
             }
           />
-          <Route path="/MyStacks" element={
-            <>
-              <div className="flex flex-col w-full mb-[30%]">
-                <CardStack />
-              </div>
-            </>
-
-          } />
-
-          <Route path="/SobreMim" element={
-            <>
-
-              <div className="flex flex-col w-full mb-[30%]">
-                <Sobremim />
-              </div>
-
-            </>
-          }
-
+          <Route
+            path="/Projetos/liquida-games"
+            element={
+              <>
+                <div className="flex flex-col w-full mb-[30%]">
+                  <ProjectLiquida />
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/Projetos/silva-modas"
+            element={
+              <>
+                <div className="flex flex-col w-full mb-[30%]">
+                  <ProjectSilva />
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/MyStacks"
+            element={
+              <>
+                <div className="flex flex-col w-full mb-[30%]">
+                  <CardStack />
+                </div>
+              </>
+            }
           />
 
-          <Route path="/Contatos" element={
-            <>
-              <div className="flex flex-col w-full mb-[30%]">
-                <Contact />
-              </div>
-            </>
-          } />
+          <Route
+            path="/SobreMim"
+            element={
+              <>
+                <div className="flex flex-col w-full mb-[30%]">
+                  <Sobremim />
+                </div>
+              </>
+            }
+          />
+
+          <Route
+            path="/Contatos"
+            element={
+              <>
+                <div className="flex flex-col w-full mb-[30%]">
+                  <Contact />
+                </div>
+              </>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
