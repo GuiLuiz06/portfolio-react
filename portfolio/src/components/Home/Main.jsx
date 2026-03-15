@@ -29,7 +29,7 @@ function HomeMain() {
       cargo1={"Desenvolvedor"}
       cargo2={"Front-End"}
       />
-      <div className="ml-4 mt-4 font-bold w-[85%] text-base">
+      <div className="ml-4 mt-4 font-bold w-[85%] text-xl">
         <p className="text-white">Transformando ideias em <span className="text-lime-400">Interfaces intuitivas</span> e experiências envolventes</p>
       </div>
       <div className="h-1 bg-lime-400 w-[90%] ml-4 mt-2"></div>
