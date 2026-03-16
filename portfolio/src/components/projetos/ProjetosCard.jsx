@@ -13,7 +13,8 @@ function ProjetoCard({ imagem, titulo, descricao, deploy, codigo }) {
 
         <div className="">
           <div className="bg-black p-2 rounded-md bottom-0 text-sm text-white w-full">
-            <strong className="font-bold">{titulo}</strong>
+            <p className="font-bold mb-4">Clique na imagem e conheça mais.</p>
+            <strong className="font-boldmt">{titulo}</strong>
             <p className="line-clamp-2">{descricao}</p>
           </div>
         </div>
