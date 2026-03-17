@@ -1,6 +1,5 @@
 import { useState } from "react";
 import viteLogo from "/vite.svg";
-import Aside from "./components/Home/Aside";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Sobremim from "./components/Profile/SobreMim";
@@ -23,7 +22,7 @@ function App() {
             path="/"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <HomeMain />
                 </div>
               </>
@@ -33,7 +32,7 @@ function App() {
             path="/Projetos"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <HomeProject />
                 </div>
               </>
@@ -43,7 +42,7 @@ function App() {
             path="/Projetos/liquida-games"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <ProjectLiquida />
                 </div>
               </>
@@ -53,7 +52,7 @@ function App() {
             path="/Projetos/silva-modas"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <ProjectSilva />
                 </div>
               </>
@@ -63,7 +62,7 @@ function App() {
             path="/MyStacks"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <CardStack />
                 </div>
               </>
@@ -74,7 +73,7 @@ function App() {
             path="/SobreMim"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <Sobremim />
                 </div>
               </>
@@ -85,7 +84,7 @@ function App() {
             path="/Contatos"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <Contact />
                 </div>
               </>

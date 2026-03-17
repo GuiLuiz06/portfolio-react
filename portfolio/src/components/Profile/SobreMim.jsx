@@ -12,7 +12,7 @@ function Sobremim() {
                     <p>Sobre mim</p>
                     <p className="text-slate-500 text-base mt-4 font-semibold">Sou um desenvolvedor Front-End apaixonado em criar soluções otimizadas e inovadoras. Tenho experiência em desenvolvimento de interfaces intuitivas. Trabalho com tecnologias como React, JavaScript e Tailwind Css e SQL. Sempre focando em entregar um código limpo e eficaz.</p>
                 </div>
-                <div className="bg-black w-[90%] mx-auto p-2 flex flex-col rounded-xl">
+                <div className="bg-black w-[90%] items-center ml-4 p-2 flex flex-col rounded-xl">
                     <div className="bg-lime-400 rounded-xl p-2 w-[90%] mx-auto font-bold text-xl m-2">
                         <p>Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
                     </div>
@@ -23,7 +23,7 @@ function Sobremim() {
                     </div>
                 </div>
             </div>
-            <div className="bg-black w-[90%] mx-auto p-2 flex flex-col rounded-xl mt-4">
+            <div className="bg-black w-[90%] items-start ml-4 p-2 flex flex-col rounded-xl mt-4">
                 <div className="flex ml-[5%]">
                     <p className="text-2xl text-white my-2 font-bold">Experiências</p>
                 </div>
