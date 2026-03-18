@@ -79,10 +79,9 @@ function Navbar() {
         </div>
       </nav >
 
-      <nav className="hidden lg:flex fixed top-0 left-0 w-full bg-gray-900 text-white justify-center p-6">
-        <div className="flex gap-6">
-          <ul className="flex justify-around py-4">
-
+      <nav className="hidden lg:flex fixed top-0 left-0 w-full bg-black text-white justify-center">
+        <div className="flex">
+          <ul className="flex justify-around py-4 gap-6">
             <li className={`rounded-xl transition-all duration-300 ${location.pathname === "/" ? "bg-white text-black" : "bg-transparent text-white hover:bg-white hover:text-black"
               }`}>
               <Link to="/" className="block px-4 py-2">

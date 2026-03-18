@@ -7,17 +7,19 @@ function Contact() {
   return (
     <>
       <div className="flex flex-col">
-        <ProfileCard
-          imagem={guilherme}
-          nome={"Guilherme Luiz"}
-          cargo1={"Desenvolvedor"}
-          cargo2={"Front-End"}
-        />
+        <div className="lg:hidden">
+          <ProfileCard
+            imagem={guilherme}
+            nome={"Guilherme Luiz"}
+            cargo1={"Desenvolvedor"}
+            cargo2={"Front-End"}
+          />
+        </div>
         <div className="">
 
           <div className="flex flex-col gap-4">
             <div className="flex w-[90%]">
-              <p className="text-white font-bold text-2xl p-4">Contatos</p>
+              <p className="text-white font-bold text-2xl mt-4">Contatos</p>
             </div>
             <div className="flex justify-start">
               <ContactButton

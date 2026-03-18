@@ -11,6 +11,7 @@ import HomeProject from "./components/projetos/HomeProjetos";
 import Contact from "./components/contatos/Contats";
 import ProjectLiquida from "./components/projetos/Liquida";
 import ProjectSilva from "./components/projetos/SilvaModas";
+import AsideCard from "./components/Home/AsideCard";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             path="/"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
                   <HomeMain />
                 </div>
               </>
@@ -32,7 +33,7 @@ function App() {
             path="/Projetos"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
                   <HomeProject />
                 </div>
               </>
@@ -62,7 +63,7 @@ function App() {
             path="/MyStacks"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
                   <CardStack />
                 </div>
               </>
