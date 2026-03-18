@@ -1,6 +1,5 @@
 import { useState } from "react";
 import viteLogo from "/vite.svg";
-import Aside from "./components/Home/Aside";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Sobremim from "./components/Profile/SobreMim";
@@ -12,6 +11,7 @@ import HomeProject from "./components/projetos/HomeProjetos";
 import Contact from "./components/contatos/Contats";
 import ProjectLiquida from "./components/projetos/Liquida";
 import ProjectSilva from "./components/projetos/SilvaModas";
+import AsideCard from "./components/Home/AsideCard";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
             path="/"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
                   <HomeMain />
                 </div>
               </>
@@ -33,7 +33,7 @@ function App() {
             path="/Projetos"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
                   <HomeProject />
                 </div>
               </>
@@ -43,7 +43,7 @@ function App() {
             path="/Projetos/liquida-games"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <ProjectLiquida />
                 </div>
               </>
@@ -53,7 +53,7 @@ function App() {
             path="/Projetos/silva-modas"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <ProjectSilva />
                 </div>
               </>
@@ -63,7 +63,7 @@ function App() {
             path="/MyStacks"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
                   <CardStack />
                 </div>
               </>
@@ -74,7 +74,7 @@ function App() {
             path="/SobreMim"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <Sobremim />
                 </div>
               </>
@@ -85,7 +85,7 @@ function App() {
             path="/Contatos"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
                   <Contact />
                 </div>
               </>

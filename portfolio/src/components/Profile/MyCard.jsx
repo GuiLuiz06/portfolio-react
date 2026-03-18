@@ -1,5 +1,6 @@
 function ProfileCard({ imagem, nome, cargo1, cargo2 }) {
   return (
+    <>
     <div className="flex flex-row items-center bg-black w-[90%] ml-4 mt-4 rounded-xl">
       
       <div className="border-4 border-lime-400 w-24 mt-4 ml-4 rounded-md mb-4">
@@ -22,8 +23,10 @@ function ProfileCard({ imagem, nome, cargo1, cargo2 }) {
           </div>
         </div>
       </div>
-
     </div>
+
+    
+    </>
   );
 }
 
