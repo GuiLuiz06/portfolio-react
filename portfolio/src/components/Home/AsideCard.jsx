@@ -1,9 +1,11 @@
 import guilherme from "../../assets/img/Guilherme.jpeg"
-import Contact from "../contatos/Contats"
+import ContactButton from "../contatos/ContactButton"
+import { Linkedin, ExternalLink, Github, Mail } from "lucide-react"
+
 function AsideCard() {
     return (
         <>
-            <div className="bg-black flex flex-col ml-10 p-4 w-[400px] h-[640px] rounded-md">
+            <div className="bg-black flex flex-col ml-10 p-4 w-[400px] lg:h-[90vh] xl:h-[87vh] 3xl:h-[90vh] rounded-md">
                 <div className="flex flex-row items-start">
                     <div className="">
                         <img src={guilherme} alt="Foto de Guilherme" className="w-48 border-4 border-lime-400 rounded-xl" />
@@ -17,8 +19,35 @@ function AsideCard() {
                     </div>
                 </div>
                 <div className="h-0.5 bg-white w-full mt-6"></div>
-                <div className="flex flex-col">
-                    <Contact />
+                <p className="text-white mt-2 mb-4 text-2xl font-semibold">Contatos</p>
+                <div className="w-full">
+                    <div className="mb-4">
+                        <ContactButton
+                            nome={"Linkedin"}
+                            Icon={Linkedin}
+                            link={"https://www.linkedin.com/in/guiilhermeluiz"}
+                            Icontwo={ExternalLink}
+                            className="w-full"
+                        />
+                    </div>
+                    <div className="mb-4">
+                        <ContactButton
+                            nome={"Github"}
+                            Icon={Github}
+                            link={"https://github.com/GuiLuiz06"}
+                            Icontwo={ExternalLink}
+                            className="w-full"
+                        />
+                    </div>
+                    <div>
+                        <ContactButton
+                            nome={"Email"}
+                            Icon={Mail}
+                            link={"mailto:guilhermeluiz1030@gmail.com"}
+                            Icontwo={ExternalLink}
+                            className="w-full"
+                        />
+                    </div>
                 </div>
             </div>
         </>

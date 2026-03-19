@@ -23,7 +23,7 @@ function App() {
             path="/"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
                   <HomeMain />
                 </div>
               </>
@@ -33,7 +33,7 @@ function App() {
             path="/Projetos"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4 ">
                   <HomeProject />
                 </div>
               </>
@@ -43,7 +43,7 @@ function App() {
             path="/Projetos/liquida-games"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
                   <ProjectLiquida />
                 </div>
               </>
@@ -53,7 +53,7 @@ function App() {
             path="/Projetos/silva-modas"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
                   <ProjectSilva />
                 </div>
               </>
@@ -63,7 +63,7 @@ function App() {
             path="/MyStacks"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-8">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
                   <CardStack />
                 </div>
               </>
@@ -74,18 +74,17 @@ function App() {
             path="/SobreMim"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
                   <Sobremim />
                 </div>
               </>
             }
           />
-
           <Route
             path="/Contatos"
             element={
               <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%]">
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
                   <Contact />
                 </div>
               </>

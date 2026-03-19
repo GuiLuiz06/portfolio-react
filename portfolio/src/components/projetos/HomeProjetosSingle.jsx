@@ -16,7 +16,7 @@ function ProjetosIntra({
     <>
       <div className="">
         <div className="flex flex-row gap-4 p-4">
-          <div className="border-2 rounded-xl p-2 text-slate-600">
+          <div className="border-2 rounded-xl p-2 text-slate-600 hover:bg-lime-500 transition duration-500">
             <a href={botaoVolta} className="flex">
               <button>
                 <ArrowLeft />
@@ -40,22 +40,26 @@ function ProjetosIntra({
                 <p>Visite o site no ar e o repositório no Github</p>
               </div>
               <div className="flex flex-row items-center justify-center mt-6 gap-10">
-                <a
-                  href={deploy}
-                  target="_blank"
-                  className="flex gap-2 border-2 p-2 rounded-xl "
-                >
-                  <Rocket />
-                  <button>Site</button>
-                </a>
-                <a
-                  href={repositorio}
-                  target="_blank"
-                  className="flex gap-2 border-2 p-2 rounded-xl"
-                >
-                  <Archive />
-                  <button>Repositório</button>
-                </a>
+                <div className="">
+                  <a
+                    href={deploy}
+                    target="_blank"
+                    className="flex gap-2 border-2 p-2 rounded-xl hover:bg-lime-500 transition duration-500 group:"
+                  >
+                    <Rocket />
+                    <button className="text-white group-hover:text-black">Site</button>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={repositorio}
+                    target="_blank"
+                    className="flex gap-2 border-2 p-2 rounded-xl hover:bg-lime-500 transition duration-500"
+                  >
+                    <Archive />
+                    <button>Repositório</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -63,7 +67,7 @@ function ProjetosIntra({
             <div className="text-slate-400 flex flex-col p-4">
               <p className="font-bold mb-4">Tecnologias utilizadas</p>
               <p>Front-end: {frontend}</p>
-              <p>Bibliotecas: {bibliotecas }</p>
+              <p>Bibliotecas: {bibliotecas}</p>
               <p>Ferramentas: {ferramentas}</p>
             </div>
           </div>

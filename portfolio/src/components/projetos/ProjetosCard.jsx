@@ -4,7 +4,7 @@ function ProjetoCard({ imagem, titulo, descricao, deploy, codigo }) {
   const slug = titulo.toLowerCase().replaceAll(" ", "-");
   return (
     <div className="flex flex-col items-start ml-4">
-      <div className="flex flex-col w-[94%] mt-4 border-4 border-lime-400 rounded-md max-w-[400px]">
+      <div className="flex flex-col w-[94%] mt-4 border-4 border-lime-400 rounded-md max-w-[350px] xl:max-w-[420px] 3xl:max-w-[500px]">
         <div className="rounded-md">
           <Link to={`/Projetos/${slug}`}>
             <img src={imagem} alt={titulo} />
