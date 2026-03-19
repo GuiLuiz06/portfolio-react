@@ -122,7 +122,7 @@ function CardStack() {
       <div className="grid lg:grid-cols-[600px_1fr] lg:mt-20 ">
         <div className="hidden lg:block">
           <div className="fixed top-20">
-          <AsideCard/>
+            <AsideCard />
           </div>
         </div>
         <div>
@@ -130,116 +130,122 @@ function CardStack() {
             <h1 className="font-bold text-2xl">Stack's</h1>
             <p>Lista das minhas Stack's:</p>
           </div>
-          <div className="bg-black flex flex-col p-2 w-[90%] max-w-[650px] items-start rounded-xl ml-4">
+          <div className="bg-black flex flex-col p-2 w-[90%] items-start rounded-xl ml-4">
             <p className="text-white font-bold text-xl mb-4 p-2">
               Habilidades Front-End
             </p>
-            <MyStacks
-              Icon={html5}
-              Title={"Html"}
-              Descricao={
-                "Html é a linguagem de marcação usada para estruturar páginas web."
-              }
-            />
-            <MyStacks
-              Icon={css3}
-              Title={"Css"}
-              Descricao={
-                "Css é usado para estilizar e criar o design das páginas web."
-              }
-            />
-            <MyStacks
-              Icon={JavaScript}
-              Title={"JavaScript"}
-              Descricao={
-                "JavaScript é a linguagem responsável pela interatividade nas páginas web."
-              }
-            />
-            <MyStacks
-              Icon={react}
-              Title={"React"}
-              Descricao={
-                "React é uma biblioteca para interfaces de usuário dinâmicas."
-              }
-            />
-            <MyStacks
-              Icon={Tailwind}
-              Title={"Tailwind Css"}
-              Descricao={
-                "Tailwind CSS é um framework CSS que facilita a criação de interfaces rápidas e modernas."
-              }
-            />
-            <MyStacks
-              Icon={bootstrap}
-              Title={"Bootstrap"}
-              Descricao={
-                "Bootstrap é um framework CSS que ajuda a criar layouts responsivos rapidamente."
-              }
-            />
+            <div className="w-full lg:grid grid-cols-2">
+              <MyStacks
+                Icon={html5}
+                Title={"Html"}
+                Descricao={
+                  "Html é a linguagem de marcação usada para estruturar páginas web."
+                }
+              />
+              <MyStacks
+                Icon={css3}
+                Title={"Css"}
+                Descricao={
+                  "Css é usado para estilizar e criar o design das páginas web."
+                }
+              />
+              <MyStacks
+                Icon={JavaScript}
+                Title={"JavaScript"}
+                Descricao={
+                  "JavaScript é a linguagem responsável pela interatividade nas páginas web."
+                }
+              />
+              <MyStacks
+                Icon={react}
+                Title={"React"}
+                Descricao={
+                  "React é uma biblioteca para interfaces de usuário dinâmicas."
+                }
+              />
+              <MyStacks
+                Icon={Tailwind}
+                Title={"Tailwind Css"}
+                Descricao={
+                  "Tailwind CSS é um framework CSS que facilita a criação de interfaces rápidas e modernas."
+                }
+              />
+              <MyStacks
+                Icon={bootstrap}
+                Title={"Bootstrap"}
+                Descricao={
+                  "Bootstrap é um framework CSS que ajuda a criar layouts responsivos rapidamente."
+                }
+              />
+            </div>
           </div>
-          <div className="bg-black flex flex-col p-2 w-[90%] max-w-[650px] items-start ml-4 rounded-xl mt-10">
+          <div className="bg-black flex flex-col p-2 w-[90%] items-start ml-4 rounded-xl mt-10">
             <p className="text-white font-bold text-xl mb-4 p-2">
               Habilidades Back-End
             </p>
-            <MyStacks
-              Icon={java}
-              Title={"Java"}
-              Descricao={
-                "Java é uma linguagem de programação usada para desenvolver aplicações robustas e escaláveis."
-              }
-            />
-            <MyStacks
-              Icon={mysql}
-              Title={"Mysql"}
-              Descricao={
-                "MySQL é um sistema de banco de dados usado para armazenar e gerenciar informações."
-              }
-            />
+            <div className="w-full lg:grid grid-cols-2">
+              <MyStacks
+                Icon={java}
+                Title={"Java"}
+                Descricao={
+                  "Java é uma linguagem de programação usada para desenvolver aplicações robustas e escaláveis."
+                }
+              />
+              <MyStacks
+                Icon={mysql}
+                Title={"Mysql"}
+                Descricao={
+                  "MySQL é um sistema de banco de dados usado para armazenar e gerenciar informações."
+                }
+              />
+            </div>
           </div>
-          <div className="bg-black flex flex-col p-2 w-[90%] max-w-[650px] items-start ml-4 rounded-xl mt-10">
+          <div className="bg-black flex flex-col p-2 w-[90%] items-start ml-4 rounded-xl mt-10">
             <p className="text-white font-bold text-xl mb-4 p-2">Ferramentas</p>
-            <MyStacks
-              Icon={docker}
-              Title={"Docker"}
-              Descricao={
-                "Docker é uma ferramenta que cria containers para rodar aplicações de forma isolada."
-              }
-            />
-            <MyStacks
-              Icon={linux}
-              Title={"Linux"}
-              Descricao={
-                "Linux é um sistema operacional muito usado em servidores e desenvolvimento."
-              }
-            />
-            <MyStacks
-              Icon={git}
-              Title={"Git"}
-              Descricao={
-                "Git é um sistema de controle de versão usado para gerenciar código."
-              }
-            />
-            <MyStacks
-              Icon={figma}
-              Title={"Figma"}
-              Descricao={
-                "Figma é uma ferramenta usada para criar protótipos e interfaces de design."
-              }
-            />
-            <MyStacks
-              Icon={github}
-              Title={"Github"}
-              Descricao={
-                "GitHub é uma plataforma para hospedar e colaborar em projetos com Git."
-              }
-            />
-            <MyStacks
-              Icon={vscode}
-              Title={"Visual Studio Code"}
-              Descricao={
-                "Visual Studio Code é um editor de código leve e muito usado por desenvolvedores."
-              }
-            />
+            <div className="w-full lg:grid grid-cols-2">
+              <MyStacks
+                Icon={docker}
+                Title={"Docker"}
+                Descricao={
+                  "Docker é uma ferramenta que cria containers para rodar aplicações de forma isolada."
+                }
+              />
+              <MyStacks
+                Icon={linux}
+                Title={"Linux"}
+                Descricao={
+                  "Linux é um sistema operacional muito usado em servidores e desenvolvimento."
+                }
+              />
+              <MyStacks
+                Icon={git}
+                Title={"Git"}
+                Descricao={
+                  "Git é um sistema de controle de versão usado para gerenciar código."
+                }
+              />
+              <MyStacks
+                Icon={figma}
+                Title={"Figma"}
+                Descricao={
+                  "Figma é uma ferramenta usada para criar protótipos e interfaces de design."
+                }
+              />
+              <MyStacks
+                Icon={github}
+                Title={"Github"}
+                Descricao={
+                  "GitHub é uma plataforma para hospedar e colaborar em projetos com Git."
+                }
+              />
+              <MyStacks
+                Icon={vscode}
+                Title={"Visual Studio Code"}
+                Descricao={
+                  "Visual Studio Code é um editor de código leve e muito usado por desenvolvedores."
+                }
+              />
+            </div>
           </div>
           <div>
             <NextPage
