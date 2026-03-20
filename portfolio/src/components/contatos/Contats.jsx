@@ -8,7 +8,7 @@ import AsideCard from "../Home/AsideCard";
 function Contact() {
   return (
     <>
-      <div className="grid lg:grid-cols-[600px_1fr] lg:mt-20 ">
+      <div className="grid lg:grid-cols-[500px_1fr] lg:mt-20 xl:grid-cols-[600px_1fr] xl:mt-20">
         <div className="hidden lg:block">
           <div className="lg:fixed top-20">
             <AsideCard/>
@@ -24,7 +24,7 @@ function Contact() {
             />
           </div>
           <div className="">
-            <div className="flex flex-col ml-6 gap-4 lg:ml-0">
+            <div className="flex flex-col ml-6 gap-4">
               <div className="flex w-[90%]">
                 <p className="text-white font-bold text-2xl mt-4">Contatos</p>
               </div>

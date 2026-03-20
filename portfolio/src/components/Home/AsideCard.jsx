@@ -5,7 +5,7 @@ import { Linkedin, ExternalLink, Github, Mail } from "lucide-react"
 function AsideCard() {
     return (
         <>
-            <div className="bg-black flex flex-col ml-10 p-4 w-[400px] lg:h-[90vh] xl:h-[87vh] 3xl:h-[90vh] rounded-md">
+            <div className="bg-black flex flex-col ml-6 p-4 w-[350px] lg:h-[85vh] xl:h-[85vh] 3xl:h-[90vh] rounded-md">
                 <div className="flex flex-row items-start">
                     <div className="">
                         <img src={guilherme} alt="Foto de Guilherme" className="w-48 border-4 border-lime-400 rounded-xl" />
