@@ -9,7 +9,7 @@ import { Pencil } from "lucide-react";
 function HomeMain() {
   return (
     <>
-      <div className="grid lg:grid-cols-[600px_1fr] lg:mt-20 ">
+      <div className="grid lg:grid-cols-[500px_1fr] xl:grid-cols-[600px_1fr] lg:mt-20 ">
         <div className="lg:hidden">
           <ProfileCard
             imagem={GuilhermeImg}

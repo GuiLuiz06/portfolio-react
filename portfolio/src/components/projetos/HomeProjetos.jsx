@@ -8,16 +8,16 @@ import { Layers } from "lucide-react";
 function HomeProject() {
   return (
     <>
-      <div className="grid lg:grid-cols-[600px_1fr] lg:mt-20 ">
+      <div className="grid lg:grid-cols-[500px_1fr] xl:grid-cols-[600px_1fr] lg:mt-20 ">
         <div className="hidden lg:block">
           <div className="fixed top-20">
             <AsideCard />
           </div>
         </div>
         <div>
-          <div className="p-4 text-2xl text-white mt-4 flex flex-col">
+          <div className="px-4 py-4 text-2xl text-white  flex flex-col">
             <p className="font-bold">Projetos</p>
-            <span className="text-xl">Lista dos meus projetos:</span>
+            <p className="text-base">Lista dos meus projetos:</p>
           </div>
           <div className="flex flex-wrap">
             <div className="">

@@ -5,7 +5,7 @@ import AsideCard from "../Home/AsideCard"
 function ProjectLiquida() {
     return (
         <>
-            <div className="grid lg:grid-cols-[600px_1fr] lg:mt-20 ">
+            <div className="grid lg:grid-cols-[500px_1fr] xl:grid-cols-[600px_1fr] lg:mt-20 ">
                 <div className="hidden lg:block">
                     <div className="lg:fixed top-20">
                         <AsideCard/>
