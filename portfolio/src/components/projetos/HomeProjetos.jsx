@@ -1,6 +1,5 @@
 import ProjetoCard from "./ProjetosCard";
 import NextPage from "./ButtonNextPage";
-import meteora from "../../assets/img/SilvaModas.png";
 import liquida from "../../assets/img/LiquidaGames.png";
 import AsideCard from "../Home/AsideCard";
 import { Layers } from "lucide-react";
@@ -20,15 +19,6 @@ function HomeProject() {
             <p className="text-base">Lista dos meus projetos:</p>
           </div>
           <div className="flex flex-wrap">
-            <div className="">
-              <ProjetoCard
-                imagem={meteora}
-                titulo={"Silva Modas"}
-                descricao={
-                  "Silva Modas é um projeto de landing page desenvolvido como parte dos meus estudos em desenvolvimento web. A proposta foi criar a interface de uma loja fictícia de roupas, com foco em apresentar produtos, destacar promoções e oferecer uma navegação clara e agradável para o usuário. O principal objetivo do projeto foi praticar a construção de layouts modernos e responsivos, explorando conceitos como organização de conteúdo em grid, utilização de componentes visuais e adaptação da interface para diferentes tamanhos de tela. Durante o desenvolvimento, foram utilizadas tecnologias como HTML5 para a estrutura da página, CSS3 para ajustes de estilo e Bootstrap para criação do layout responsivo e dos componentes da interface."
-                }
-              />
-            </div>
             <div className="">
               <ProjetoCard
                 imagem={liquida}

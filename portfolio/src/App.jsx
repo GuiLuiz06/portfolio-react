@@ -10,7 +10,6 @@ import HomeMain from "./components/Home/Main";
 import HomeProject from "./components/projetos/HomeProjetos";
 import Contact from "./components/contatos/Contats";
 import ProjectLiquida from "./components/projetos/Liquida";
-import ProjectSilva from "./components/projetos/SilvaModas";
 import AsideCard from "./components/Home/AsideCard";
 
 function App() {
@@ -45,16 +44,6 @@ function App() {
               <>
                 <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
                   <ProjectLiquida />
-                </div>
-              </>
-            }
-          />
-          <Route
-            path="/Projetos/silva-modas"
-            element={
-              <>
-                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
-                  <ProjectSilva />
                 </div>
               </>
             }
