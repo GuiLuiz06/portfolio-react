@@ -17,8 +17,10 @@ function ProjetosIntra({
       <div className="">
         <div className="flex flex-row gap-4 p-4">
 
-          <a href={botaoVolta} className="flex flex-row gap-4 p-2 lg:ml-2 xl:ml-8 border-2 rounded-xl text-slate-600 hover:bg-lime-500 transition duration-500">
-            <ArrowLeft />
+          <a href={botaoVolta} className="flex flex-row gap-4 p-2 lg:ml-2 xl:ml-12 border-2 rounded-xl text-slate-600 hover:bg-lime-500 transition duration-500">
+            <div className="flex justify-center items-center">
+              <ArrowLeft />
+            </div>
 
           </a>
 

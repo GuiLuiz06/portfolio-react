@@ -11,6 +11,7 @@ import HomeProject from "./components/projetos/HomeProjetos";
 import Contact from "./components/contatos/Contats";
 import ProjectLiquida from "./components/projetos/Liquida";
 import AsideCard from "./components/Home/AsideCard";
+import ProjectGeradorQrCode from "./components/projetos/GeradorQrCode";
 
 function App() {
   return (
@@ -44,6 +45,16 @@ function App() {
               <>
                 <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
                   <ProjectLiquida />
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/Projetos/gerador-de-qr-code"
+            element={
+              <>
+                <div className="flex flex-col w-full mb-[30%] sm:mb-[13%] lg:mb-4">
+                  <ProjectGeradorQrCode />
                 </div>
               </>
             }
