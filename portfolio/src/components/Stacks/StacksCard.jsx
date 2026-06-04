@@ -68,6 +68,21 @@ const mysql = () => (
   />
 );
 
+const postgreSQL = () => (
+  <img
+    src="https://camo.githubusercontent.com/20b01b402f23f88e2c1bc285c9dae4ca45970b0413d496a15a01062e785ed5cc/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f706f737467726573716c2f706f737467726573716c2d6f726967696e616c2e737667"
+    alt="PostgreSQL"
+    className="max-w-10 max-h-10"
+  />
+);
+
+const postman = () => (
+  <img 
+    src="https://camo.githubusercontent.com/bd88ae60b5a9ae8b6ede999688a02476d7e51025d09ce7444dcd7b5fe51cc64d/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f706f73746d616e2f706f73746d616e2d6f726967696e616c2e737667"
+    alt="Postman"
+    className="max-w-10 max-h-10"
+  />
+);
 const linux = () => (
   <img
     src="https://camo.githubusercontent.com/e5b73aac41779533894a5bdaf9402083addc4d689a3d47deb62b9f678b20aeb9/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f6c696e75782f6c696e75782d6f726967696e616c2e737667"
@@ -196,6 +211,20 @@ function CardStack() {
                 Title={"Mysql"}
                 Descricao={
                   "MySQL é um sistema de banco de dados usado para armazenar e gerenciar informações."
+                }
+              />
+              <MyStacks
+                Icon={postgreSQL}
+                Title={"PostgreSQL"}
+                Descricao={
+                  "PostgreSQL é um sistema de banco de dados object-oriented e muito usado em aplicações modernas."
+                }
+              />
+              <MyStacks
+                Icon={postman}
+                Title={"Postman"}
+                Descricao={
+                  "Postman é uma ferramenta usada para testar e desenvolver APIs de forma eficiente."
                 }
               />
             </div>
